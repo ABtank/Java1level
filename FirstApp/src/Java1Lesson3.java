@@ -94,8 +94,9 @@ str.charAt(0); - метод, вернет char, который стоит в с�
          *
          */
         int z;
-        int quit = 0;
+
         do {
+            int quit = 0;
             char[] text = {'#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#',};
             String[] words = {"apple", "orange", "lemon", "banana", "apricot", "avocado", "broccoli", "carrot", "cherry", "garlic", "grape", "melon", "leak", "kiwi", "mango", "mushroom", "nut", "olive", "pea", "peanut", "pear", "pepper", "pineapple", "pumpkin", "potato"};
 
@@ -137,6 +138,7 @@ str.charAt(0); - метод, вернет char, который стоит в с�
 
         } while (tryAgein.equals("yes"));
 
+        sc.close();
 
     }
 
