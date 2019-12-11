@@ -139,6 +139,7 @@ str.charAt(0); - метод, вернет char, который стоит в с�
         } while (tryAgein.equals("yes"));
 
         sc.close();
+        
 
     }
 
